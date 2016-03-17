@@ -1,5 +1,3 @@
-var log = require('../logger');
-
 module.exports = function (app) {
     require('./index.js')(app);
     require('./post_response.js')(app);

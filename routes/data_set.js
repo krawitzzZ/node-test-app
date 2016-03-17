@@ -2,10 +2,6 @@ var log = require('../logger');
 
 module.exports = function (app) {
     app.get('/data_set', function (req, res) {
-        res.set({
-            'Access-Control-Allow-Origin': '*',
-            'Cache-Control': 'no-cache, no-store, must-revalidate'
-        });
 
         var products = [
             {item: "banana", type: "fruit"},
