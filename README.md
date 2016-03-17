@@ -1,2 +1,1 @@
-# node-test-app
-Node.js server for test-app
+This is the Intspirit test implementation
