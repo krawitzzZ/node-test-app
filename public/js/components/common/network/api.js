@@ -1,7 +1,7 @@
 define(function (require) {
     var $ = require('jquery'),
         ajax = require('./ajax'),
-        baseUrl = 'http://localhost:3000';
+        baseUrl = 'http://frozen-dusk-64465.herokuapp.com';
 
     var that = {};
 

@@ -22,6 +22,7 @@
     "requirejs": "^2.1.22",
     "text": "requirejs-text#^2.0.14",
     "crossroads.js": "crossroads#^0.12.2",
-    "js-signals": "signals#^1.0.0"
+    "js-signals": "signals#^1.0.0",
+    "bootstrap": "^3.3.6"
   }
 }

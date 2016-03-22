@@ -15,7 +15,7 @@ module.exports = function (app) {
         var chosenProduct = products[randomCount];
 
         res.status(200).send(chosenProduct);
-        log.info('got get request on /data_set. sended: ', chosenProduct);
+        log.info('sent response: ', chosenProduct);
 
         function randomInteger(min, max) {
             var rand = min + Math.random() * (max + 1 - min);
