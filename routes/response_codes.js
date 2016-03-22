@@ -20,7 +20,7 @@ module.exports = function (app) {
             };
         }
         res.status(200).send(response);
-        log.info('got get request on /response_codes. response is: ', response);
+        log.info('sent response: ', response);
 
         function randomInteger(min, max) {
             var rand = min + Math.random() * (max + 1 - min);

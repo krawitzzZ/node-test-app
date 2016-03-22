@@ -8,7 +8,7 @@ var app = express();
 
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({'extended':'true'}));
-app.use(morgan('dev'));
+app.use(morgan({stream: log.stream}));
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
@@ -21,7 +21,7 @@ app.use(function(req, res, next) {
 
 require('./routes/routes.js')(app);
 
-// listen (start app)
+// listen
 
 var port = process.env.PORT || 3000;
 app.listen(port);
