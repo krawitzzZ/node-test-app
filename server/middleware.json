@@ -13,9 +13,9 @@
     },
     "helmet#xssFilter": {},
     "helmet#frameguard": {
-      "params": [ 
+      "params": [
         "deny"
-       ]
+      ]
     },
     "helmet#hsts": {
       "params": {
@@ -26,22 +26,25 @@
     "helmet#hidePoweredBy": {},
     "helmet#ieNoOpen": {},
     "helmet#noSniff": {},
-    "helmet#noCache": { 
-      "enabled": false
+    "helmet#noCache": {
+      "enabled": true
     }
   },
-  "session": {
-  },
-  "auth": {
-  },
-  "parse": {
-  },
+  "session": {},
+  "auth": {},
+  "parse": {},
   "routes": {
     "loopback#rest": {
-      "paths": ["${restApiRoot}"]
+      "paths": "${restApiRoot}"
+    },
+    "loopback#status": {
+      "paths": "/status"
     }
   },
   "files": {
+    "loopback#static": {
+      "params": "$!../client"
+    }
   },
   "final": {
     "loopback#urlNotFound": {}
