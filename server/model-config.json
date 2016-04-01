@@ -35,6 +35,6 @@
   },
   "endpoint": {
     "dataSource": "mongo",
-    "public": false
+    "public": true
   }
 }
