@@ -2,14 +2,5 @@
   "db": {
     "name": "db",
     "connector": "memory"
-  },
-  "mongo": {
-    "host": "ds023118.mlab.com",
-    "port": 23118,
-    "database": "simpleapp",
-    "password": "nikita",
-    "name": "mongo",
-    "user": "nikita",
-    "connector": "mongodb"
   }
 }

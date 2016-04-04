@@ -32,9 +32,5 @@
   "Role": {
     "dataSource": "db",
     "public": false
-  },
-  "endpoint": {
-    "dataSource": "mongo",
-    "public": true
   }
 }
