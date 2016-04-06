@@ -1,7 +1,7 @@
 define(function (require) {
     var $ = require('jquery'),
         ajax = require('./ajax'),
-        baseUrl = 'https://limitless-headland-72461.herokuapp.com/endpoints';
+        baseUrl = 'http://localhost:3000/endpoints';
 
     var that = {};
 
