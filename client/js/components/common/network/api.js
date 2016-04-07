@@ -1,7 +1,8 @@
+/*globals define*/
 define(function (require) {
     var $ = require('jquery'),
         ajax = require('./ajax'),
-        baseUrl = 'http://localhost:3000/endpoints';
+        baseUrl = 'http://0.0.0.0:3000/endpoints';
 
     var that = {};
 
