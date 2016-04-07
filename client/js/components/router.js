@@ -1,3 +1,4 @@
+/*globals define, history*/
 define(function (require) {
     var crossroads = require('crossroads'),
         global = require('global'),
